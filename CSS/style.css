@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+width: 100%;
+
+background: #3B5998;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+.logo {
+    width: 20%;
+}
+.logo img {
+    width: 100%;
+}
+.login {
+
+width: 60%;
+
+}
+form{
+
+padding-left: 100px;
+}
+.form-group {
+
+display: inline-block;
+
+width: 200px;
+}
+input {
+    
+height: 25px;
+    
+margin: 10px 0;
+}
+label {
+    
+color: #fff;
+    
+font-size: 14px;
+}
+input[type="button"]{
+    background-color: #183b86;
+    border: none;
+    border: 1px solid black;
+    padding: 5px;
+    /* color: white; */
+    box-shadow: inset 0px 0px 1px 0px;
+    color: white;
+}
+input[type="button"]:hover {
+    background-color: #3B5998;
+}
+.main-body{
+
+display: flex;
+justify-content: space-around;
+
+background: #E4E4E4;
+}
+.recent {
+padding-top: 100px;
+width: 50%;
+display: flex;
+justify-content: space-evenly;
+}
+.recent-image {
+    width: 40%;
+}
+.recent-image img{
+    width: 100%;
+
+}
+.recent-image img:hover{
+    background-color: black;
+    opacity: 50%;
+}
+.sign-up {
+    
+width: 50%;
+}
+.sign-up form {
+
+padding: 0px;
+
+margin: 0px;
+}
+.form h1 {
+
+font-size: 40px;
+
+padding: 30px  0;
+}
+.form p {font-size: 18px;padding-bottom: 20px;}
+form {
+
+}
+.sign-up form label{
+    color: gray;
+}
+.sign-up form input {
+    /* margin-top: 50px; */
+    border: none;
+    border: 1px solid  #A69999;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 15px;
+}
+input[type="text"] {
+
+
+}
+.sign-up form input[type="email"] {
+    width: 355px;
+}
+.sign-up form input[type="password"]{
+    
+width: 355px;
+}
+input[type="date"] {
+    
+}
+.sign-up form input[type="radio"] {
+    
+margin: 0px;
+    
+vertical-align: middle;
+    
+margin-right: 10px;
+}
+
+form input[type="submit"] {
+    
+background: #69A354;
+    
+    
+color: white;
+    
+height: 40px;
+    
+width: 200px;
+    
+font-size: 20px;
+    
+margin-top: 30px;
+}
+form input[type="submit"]:hover {
+    background: #476d39;
+}
+input::placeholder {
+    font-size: 18px;
+    color: #A69999;
+}
